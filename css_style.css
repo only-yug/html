@@ -1,0 +1,44 @@
+body{
+    background-color: #f9f1f0;
+}
+h1{
+    text-align: center;
+    color: #f79489;
+    font-weight: 400;
+
+}
+h3{
+    font-family: Papyrus;
+    color: #f8afa6;
+    text-decoration:underline solid;
+    text-decoration-color: #f79489;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size:large;
+}
+#youtube{
+    background-color: white;
+    color: red;
+}
+#youtube:hover{
+    background-color: red;
+    color: white;
+
+}
+#user{
+    text-align: center;
+    font-family: Papyrus;
+    color: #9d6760;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+#reset,#submit{
+    background-color:#f9f1f0;
+    color:#f8afa6;
+}
+#reset:hover,#submit:hover{
+    background-color:#f8afa6;
+    color:#f9f1f0;
+}
+
