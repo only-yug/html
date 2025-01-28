@@ -42,3 +42,10 @@ h3{
     color:#f9f1f0;
 }
 
+input[type="radio"]:checked + label{
+    font-weight: 600;
+}
+#branch{
+    background-color:#9d6760;
+    color: #f9f1f0;
+}
