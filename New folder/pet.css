@@ -1,0 +1,77 @@
+.card1,.card2{
+    width: 400px;
+    height: 420px;
+    border: 2px solid black ;
+    border-radius: 25px;
+    margin: 50px;
+    background-color: aliceblue;
+    box-shadow:7px 7px 2px black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+     /* transition: .5s; */
+     /* padding: 10px; */
+     /* display:inline-block */
+
+}
+.card1:hover img{
+    width:115%;
+    box-shadow:15px 15px 3px black;
+}
+.card2:hover img{
+    width:115%;
+    /* box-shadow:15px 15px 3px black; */
+}
+img{
+    transition: 1s;
+    width: 100%;
+    border-radius: 25px;
+}
+
+
+#pets{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h2{ font-family:NSimSun;
+    text-align: center;
+ text-decoration: solid underline;
+ color: #f79489;
+}
+body{
+   
+    background-color: #f9f1f0;
+}
+.adoptme{
+    height: 500px;
+    width: 1500px;
+    background-image: url("sasha1.jpg");
+    background-size:cover;
+    font-size: 3em;
+    color:aliceblue;
+    font-style:inherit;
+}
+.image1,.image2{
+    /* margin-top: 50px; */
+     width: 360px;
+     height:200px;
+     /* border: solid 3px red; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+     /* border: solid 2px black; */
+     margin: 10px;
+     border-radius: 25px;
+
+    
+     
+}
+h1{
+    margin-top: 50px;
+    margin: 40px
+    ;
+}
