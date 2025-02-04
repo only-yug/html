@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Montserrat", serif;
+   
+}
+
+.main{
+    /* background-color:bisque;  */
+    height: 100vh;
+    background-image:url("ph1.jpg");
+     background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.b1{
+    font-size: 30px;
+    position: absolute;
+    left: 15px;
+    line-height: 100px;
+    margin-left: 10px;
+}
+
+.side{
+    position:fixed;
+     width: 300px;
+    height: 100vh;
+    left: -350px;
+    font-size: larger;
+    background-color: rgb(64, 63, 28,.5);
+    transition: all .5s linear;
+}
+.side .logo{   
+    top: 30px;
+    position: absolute;
+    width:100%;
+    font-size: 30px;
+    /* padding: 0px 75px; */
+    height:60px;
+    text-align: center;
+    line-height: 50px;
+}
+.side .side_menu {
+    /* display: flex; */
+    width: 100%;
+    position: absolute;
+    top: 100px;
+}
+
+.side_menu ul li{ 
+    /* line-height: 60px; */
+    padding:14px 20px;
+    margin-top:10px;
+  
+   
+    /* border:solid 2px black */
+}
+
+a,i{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+.side .social{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 25px; 
+}
+
+#check{
+    display: none;
+}
+
+.side .side_menu li:hover{
+    box-shadow: 0px 0px 4px black;
+}
+.b2{
+    align-items:end;
+    text-align: end;
+    padding-right: 30px;
+    padding-top: 20px;
+    line-height: 80px;
+    /* font-size: 70px; */
+
+    cursor: ;
+}
+.b2 i{
+    scale: 1.1; 
+    transition-duration: .5s;
+}
+
+i{
+    font-size: 30px;
+   
+}
+
+
+.b2 i:hover{
+    scale: 1.5;
+}
+.side .social i{
+opacity:.5;
+}
+.side .social i:hover{
+    opacity:1;
+    transform: scale(1.1);
+    }
+
+#check:checked~.side{
+    left:0;
+}
+#check:checked~ .b1 i{
+    opacity: 0;
+}
