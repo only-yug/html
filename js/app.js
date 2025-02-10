@@ -48,3 +48,50 @@ console.log( name != surmane )
  }
  else if(b>c){console.log("The B is the max number with the value of ",b)}
 else console.log("The C is the max number with the value of ",c)
+
+
+let colour='ooo'
+switch(colour){
+   case 'Red':
+    console.log("The Color Is Red")
+        break;
+   case 'Yellow':
+    console.log("The Color Is Yellow")
+        break;  
+   case 'Green':
+    console.log("The Color Is Green")
+        break;
+        default:
+        console.log("The Color Is Not A colour of the T_light") 
+}
+
+alert("Why I am Learning It")
+
+
+ if(a>b){
+    if(a>c){
+         console.log("The A is the max number with the value of ",a)
+        
+     }
+   else 
+    console.log("The C is the max number with the value of ",c)
+ }
+  else if(b>c){console.log("The B is the max number with the value of ",b)}
+ else console.log("The C is the max number with the value of ",c)
+
+
+let marks=10.12;
+if (marks>=90){
+    if(marks==91.1){
+        console.log("You Are EX..")
+    }
+    else  console.log("You are Good")
+}
+else if(marks>=60){
+    if(marks>60.0){
+        console.log("It is 60.2") }
+    else  console.log("It is 60")
+}
+else 
+console.log("You are Idiot")
+
