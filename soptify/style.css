@@ -2,8 +2,246 @@
 *{
     font-family: "Montserrat", serif;
    margin:0;
-   background-color:  #000;
+   /* background-color:  #000; */
    color:white;
    overflow:hidden;
-
+    text-decoration: none;
   }
+  .main{
+    background-color:#000;
+    display: flex;
+    height: 100vh;
+  }
+.sidebar{
+    background-color:#000;
+    width: 340px;
+    border-radius: 1rem;
+    /* margin-right: 5px; */
+}
+.main-content{
+    background-color:#121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow:auto;
+    padding: 0 1.5rem 0 1.5rem;
+}
+.player{
+    background-color: #121212;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    /* align-items: center; */
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+ margin-top: .5rem ;
+}
+.nav{
+    background-color:#121212;
+    height: 100px;
+    padding: .5rem .75rem;
+    border-radius: 1rem;
+    margin: .5rem;
+    /* display: flex; */
+
+}
+.nav-option{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    opacity: .7;
+    margin-left: 1rem;
+    /* border-radius: 1rem; */
+    /* padding: .5rem; */
+
+}
+.nav-option:hover{
+    opacity: 1;
+}
+.nav-option i{
+    font-size: 1.5rem;
+}
+.nav-option a{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+.library{
+    height: 100vh;
+    background-color:#121212;
+    padding: .5rem .75rem;
+    margin: .5rem;
+    border-radius: 1rem;
+
+}
+.lib-logo{
+    height: 24px;
+    width: 24px;
+}
+.lib-options{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+.lib-options a{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+.lib-options i{
+    font-size: 1.5rem;
+    margin-left: 35px;
+    opacity: .7;
+    
+}
+.lib-options i:hover{
+    opacity: 1;
+
+}
+.outer{
+    height:100px;
+    background-color:#1f1f1f;
+    padding: 1rem 1.25rem;
+    margin: .5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+
+}
+.content-1{
+    height: 33%;
+    font-weight: 700;
+}
+.content-2{
+    height: 33%;
+    font-size: 14px;
+}
+.create{
+    height: 33%;
+    background-color: white;
+    color: #000;
+    border-radius: 1rem;
+    border: 0px;
+    font-weight: 700;
+    padding: 4px 16px;
+
+}
+.outer-2{
+    height: 143px;
+    background-color:#1f1f1f;
+    padding: 1rem 1.25rem;
+    margin: .5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+.outer-2 .create{
+    height: 33px;
+    
+}
+.stiky-nav{
+    position: sticky;
+    top: 0%;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-size: 1rem;
+}
+.nav-right{
+    margin-right: .5rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-right: 1rem;
+}
+.nav-left{
+    margin-left: 1rem;
+}
+
+#download{
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stiky-nav .nav-right  .create{
+    height: 35px;
+    
+}
+.stiky-nav .nav-right i{
+    margin-left:.5rem;
+}
+#bd{
+    
+    margin-right: 5px;
+    font-size: 1rem;
+}
+.card-container{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    padding: 1rem 0 1.5rem 0;
+}
+.main-card{
+    width: 150px;
+    height: 230px;
+    background-color:#1f1f1f;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.main-card .photo{
+    width:100%;
+    /* margin: 10px 15px; */
+    background-size:contain;
+    border-radius: .5rem;
+    
+}
+.profile{
+    font-weight: 500;
+    padding:.5rem 0 0 0;
+}
+.info{
+    opacity: .75;
+    font-size: .8rem;
+    padding:.5rem 0;
+}
+.player .player-option img{
+    height: 1.3rem;
+    width: 1.3rem;
+    margin: 0px 1.5rem;
+    opacity: .7;
+}
+.player .player-option img:hover{
+    opacity: 1;
+}
+.player .player-option{
+    padding: .8rem;
+}
+.progress-bar{
+    
+    width: 350px;
+    height: 3px;
+    background-color: aliceblue;
+    opacity: .7;
+    margin: 0px 1rem 0px 1rem ;
+    border-radius: 50%;
+}
+.total {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
