@@ -1,0 +1,22 @@
+.card{
+
+     border:0px solid magenta;
+}
+
+img{
+    border-radius: 50px;
+}
+
+
+.col-4 .card img{
+    border-radius: 25px;
+}
+.col-4 .card {
+    margin: 10px;
+    transition: .5s;
+}
+
+.col-4 .card:hover{
+    margin: 5px;
+}
+
